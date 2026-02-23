@@ -42,6 +42,10 @@ max-height: 800px;
 height: 100vh;
 display: flex;
 flex-direction: column;
+padding-bottom: 40px;
+padding-right: 80px;
+padding-left: 80px;
+padding-top: 30px;
 
 }
 .header__image{
@@ -54,7 +58,6 @@ max-height: 568px;
 .header__title{
   margin-top: 183px;
   max-width: 709px;
- margin-left: 80px;
  margin-bottom: 28px;
  font-style: normal;
  font-family: "Inter";
@@ -75,7 +78,6 @@ display: block;
 .header__description{
   max-width: 683px;
   margin-top: 28px;
-  margin-left: 80px;
   font-family: "Noto Serif";
 font-style: normal;
 font-weight: normal;
@@ -99,19 +101,12 @@ align-items: flex-end;
 .header__footer-list{
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
-  margin-left: 80px;
   gap: 8px;
   }
 
-.header__footer-time{
+
+.header__paragraph{
   margin:0;
-
-
-}
-.header__footer-paragraph{
-  margin-bottom: 40px;
-  margin-right: 80px;
 }
 .content{
 background-color: #0a2750;
