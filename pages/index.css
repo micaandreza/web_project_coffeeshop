@@ -108,19 +108,16 @@ align-items: flex-end;
 .header__paragraph{
   margin:0;
 }
-.content{
+
+.recipes{
+  width: 100%;
 background-color: #0a2750;
 background-size: cover;
 background-repeat: no-repeat;
 background-image: url('../images/background_recipes.svg');
-display: flex;
 padding-top: 100px;
 padding-bottom: 215px;
 padding-left: 80px;
-
-}
-.recipes{
-  width: 100%;
 }
 .recipes__title{
   max-width: 580px;
@@ -169,3 +166,98 @@ display: flex;
 justify-content: space-between;
 }
 
+.reservation{
+  background-color: #D9E7FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/background_reservation.svg') ;
+ display: flex;
+ justify-content: center;
+ padding-bottom: 120px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+.reservation__title{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+margin-bottom: 80px;
+text-align: center;
+margin-top: 100px;
+
+}
+.reservation__form{
+  margin: auto;
+}
+.form__fiedset{
+  min-width: 385px;
+  margin: auto;
+  width: 100%;
+  border: none;
+
+}
+.form__input{
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+margin-bottom: 32px;
+height: 60px;
+padding: 15px 20px;
+box-sizing: border-box;
+min-width: 385px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+.form__label{
+  margin-bottom: 8px;
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.form__button{
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  cursor: pointer;
+  height: 60px;
+  margin-bottom: 32px;
+  min-width: 385px;
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.form__button:hover{
+  opacity: 0.7;
+}
+.form__checkbox{
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+
+}
+.form__checkbox-label{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+ justify-content: center;
+}
+.form__checkbox:checked{
+  background-color: #2f80ed;
+  background-image: url("../images/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
